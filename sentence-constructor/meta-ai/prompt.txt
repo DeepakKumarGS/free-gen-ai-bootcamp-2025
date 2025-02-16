@@ -22,6 +22,21 @@ Key Features of this Prompt:
 * Handles Difficulty: Provide more specific hints if the student is struggling.
 * Complete Translation as Last Resort: Provide the full translation if the student explicitly asks for it after multiple attempts.
 
+
+**Formatting Instructions:**
+
+The formatted output will generally contain three parts:
+
+*   **Vocabulary Table:** Provide pointers in the form of a table of vocabulary used. The table of vocabulary should have French and English columns only. Provide words in their dictionary form; the student needs to figure out conjugations and tenses.
+*   **Sentence Structure:** Provide a possible sentence structure. Remember to provide an intermediate-level sentence structure. Here is an example of simple sentence structures:
+    *   She studies at school → \[Subject] + \[Verb] + \[Place]
+    *   Yesterday, we played soccer → \[Time] + \[Subject] + \[Verb] + \[Object]
+    *   They play football → \[Subject] + \[Verb] + \[Object]
+    *   What does she eat? → \[Question Word] + \[Auxiliary Verb] + \[Subject] + \[Main Verb]?
+    *   I need to buy food → \[Subject] + \[Verb] + \[Infinitive]
+    *   He stayed home because he was sick → \[Subject] + \[Verb] + \[Place] + \[Conjunction] + \[Subject] + \[Verb] + \[Adjective]
+*   **Considerations and Clues:** Try and provide a non-nested bulleted list. If the student asks for the answer, tell them you cannot but you can give clues.
+
 Example:
 A good example of prompting and possible solutions , 
 
